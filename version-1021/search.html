@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index,follow">
+  <title>搜索影视作品 - 手机在线免费观看高清影视 - 热门大片、经典老片、韩剧美剧一应俱全</title>
+  <meta name="description" content="搜索手机在线免费观看高清影视，快速查找热门大片、经典老片、韩剧美剧与在线播放内容。">
+  <meta name="keywords" content="影视搜索,手机在线观看,免费高清影视,热门大片,经典老片,韩剧美剧,在线播放,高清画质,手机观影">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="高清影视大全首页">
+        <span class="brand-icon" aria-hidden="true">🎬</span>
+        <span class="brand-text">
+          <strong>高清影视大全</strong>
+          <small>手机免费观看 · 高清播放</small>
+        </span>
+      </a>
+      <nav class="main-nav" aria-label="主导航">
+        <a class="" href="index.html">首页</a>
+        <a class="" href="categories.html">分类</a>
+        <a class="" href="rankings.html">排行榜</a>
+        <div class="nav-dropdown">
+          <button type="button">频道</button>
+          <div class="nav-dropdown-panel">
+            <a href="categories/hot-library-01.html">热门片库 01</a>
+            <a href="categories/hd-library-02.html">高清片库 02</a>
+            <a href="categories/classic-library-03.html">经典片库 03</a>
+            <a href="categories/series-library-04.html">剧集片库 04</a>
+            <a href="categories/movie-library-05.html">电影片库 05</a>
+            <a href="categories/daily-library-06.html">每日更新 06</a>
+          </div>
+        </div>
+      </nav>
+      <form class="header-search" action="search.html" method="get" role="search">
+        <label class="sr-only" for="header-search-search">搜索影视作品</label>
+        <input id="header-search-search" name="q" type="search" placeholder="搜索影视作品...">
+        <button type="submit">搜索</button>
+      </form>
+      <button class="mobile-menu-button" type="button" data-menu-toggle aria-label="打开导航">☰</button>
+    </div>
+    <div class="mobile-panel" data-mobile-panel>
+      <a href="index.html">首页</a>
+      <a href="categories.html">分类</a>
+      <a href="rankings.html">排行榜</a>
+      <a href="search.html">搜索</a>
+    </div>
+  </header>
+
+  <main class="container main-content">
+    <nav class="breadcrumb" aria-label="面包屑">
+      <a href="index.html">首页</a>
+      <span>/</span>
+      <strong>搜索</strong>
+    </nav>
+
+    <section class="page-hero small-hero">
+      <span class="eyebrow">Search</span>
+      <h1>搜索作品</h1>
+      <p>输入片名、地区、类型、年份、标签或简介关键词，快速进入对应详情页。</p>
+    </section>
+
+    <section class="search-panel">
+      <form class="large-search" action="search.html" method="get" data-search-form>
+        <label class="sr-only" for="search-page-input">搜索影视作品</label>
+        <input id="search-page-input" type="search" name="q" placeholder="搜索影视作品..." data-search-input>
+        <button type="submit">搜索</button>
+      </form>
+      <p class="search-summary" data-search-summary>请输入关键词开始搜索。</p>
+    </section>
+
+    <section class="card-grid" data-search-results></section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="footer-brand">
+          <span class="brand-icon" aria-hidden="true">🎬</span>
+          <div>
+            <strong>高清影视大全</strong>
+            <small>手机免费观看 · 高清播放</small>
+          </div>
+        </div>
+        <p>手机在线免费观看高清影视，热门大片、经典老片、韩剧美剧一应俱全。免费观看，高清画质，每日更新，手机电脑均可观看。</p>
+      </div>
+      <div>
+        <h3>快速导航</h3>
+        <ul>
+          <li><a href="index.html">首页</a></li>
+          <li><a href="categories.html">全部分类</a></li>
+          <li><a href="rankings.html">排行榜</a></li>
+          <li><a href="sitemap.html">站点地图</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>热门频道</h3>
+        <ul>
+            <li><a href="categories/hot-library-01.html">热门片库 01</a></li>
+            <li><a href="categories/hd-library-02.html">高清片库 02</a></li>
+            <li><a href="categories/classic-library-03.html">经典片库 03</a></li>
+            <li><a href="categories/series-library-04.html">剧集片库 04</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>观影提示</h3>
+        <p>支持手机、平板和电脑访问，提供清晰分类、搜索入口与详情推荐，方便快速找到想看的作品。</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <span>© 2026 高清影视大全. 仅供个人学习交流使用。</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/search-index.js"></script>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "parsed_movies": 2000,
+  "detail_pages": 2000,
+  "category_pages": 10,
+  "category_counts": {
+    "guochan-rebo": 200,
+    "zuixin-juji": 200,
+    "gaoqing-dianying": 200,
+    "xuanyi-fanzui": 200,
+    "dongzuo-kehuan": 200,
+    "xiju-aiqing": 200,
+    "juqing-wenyi": 200,
+    "rihan-jingxuan": 200,
+    "oumei-jiapian": 200,
+    "gangtai-jingdian": 200
+  },
+  "video_sources_extracted_from_original_js": 13,
+  "html_pages_with_baidu_script": 2014,
+  "total_html_pages": 2014,
+  "all_movies_have_category": true,
+  "all_movies_have_video_url": true
+}
